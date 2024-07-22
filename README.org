@@ -1,6 +1,5 @@
 #+TITLE:     How to effortlessly transform your Org mode files into stunning HTML in just 2 minutes
-#+AUTHOR:    Fabrice Niessen
-#+EMAIL:     (concat "fniessen" at-sign "pirilampo.org")
+#+AUTHOR:    Fabrice Niessen (with extremely simple minor mods by me)
 #+DESCRIPTION: Org-HTML export made simple.
 #+KEYWORDS:  org-mode, export, html, theme, style, css, js, bigblow
 #+LANGUAGE:  en
@@ -8,50 +7,6 @@
 
 #+PROPERTY:  header-args :padline no
 #+SETUPFILE: ~/org/theme-readtheorg.setup
-
-#+html: <a href="http://opensource.org/licenses/GPL-3.0">
-#+html:   <img src="http://img.shields.io/:license-gpl-blue.svg" alt=":license-gpl-blue.svg" />
-#+html: </a>
-#+html: <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=VCVAS6KPDQ4JC&lc=BE&item_number=org%2dhtml%2dthemes&currency_code=EUR&bn=PP%2dDonationsBF%3abtn_donate_LG%2egif%3aNonHosted">
-#+html:   <img src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" alt="btn_donate_LG.gif" />
-#+html: </a>
-
-* ADVERT: Elevate your Emacs skills in Paris, Rotterdam, Leuven or Valencia!
-
-*Unlock the power of Emacs in Valencia!  Join my next exclusive "Emacs Boost"
-course on April 11th to 12th, 2024!*
-
-#+attr_html: :style height: 90px !important;
-[[file:images/Logo-HD-transparent-25pc.png]]
-
-Ready to /supercharge your productivity/ and become an Emacs ninja?  Look no
-further!
-
-*What you'll learn:*
-- Master Emacs from the basics to advanced tricks.
-- /Boost your editing efficiency/ and streamline your workflow.
-- Customize Emacs to fit your unique needs.
-- And much more!
-
-*Upcoming course details:*
-- *Date:* April 11th to 12th (Thu + Fri)
-- *Location:* Valencia, Spain
-- *Audience:* Open to anyone interested in Emacs, from beginners to advanced
-  users.
-
-*Why choose my course?*
-- Expert instructor with 24 years of Emacs experience.
-- /Hands-on exercises/ to reinforce your learning.
-- /Networking opportunities/ with like-minded Emacs enthusiasts.
-- Personalized attention.
-
-Don't miss this opportunity to take your Emacs skills to the next level! \\
-Seats are limited, so /reserve yours today/.
-
-Visit https://emacsboost.com/en/ for more information, other dates and other
-locations, and to /reserve your seat/.
-
-/See you in Valencia!/  [[https://emacsboost.com/en/][#EmacsBoostValencia]]
 
 * Overview
 
@@ -63,19 +18,6 @@ can say (or write) that Org mode provides a /basic/ HTML support.
 *Org-HTML themes* is an open source framework for providing you with a list of
 very nice (cross-browser) themes for all your Org documents.  Use them to *style
 your docs*, and your colleagues will come up to tell you that you are a genius!
-
-Share this content by tweeting this page:
-
-#+html: <script src="http://platform.twitter.com/widgets.js"></script>
-#+html: <a href="https://twitter.com/share" class="twitter-share-button" data-via="f_niessen">Tweet</a>
-
-Follow [[https://twitter.com/f_niessen][f_niessen]] on Twitter for updates on Org-HTML themes!
-
-** Requirements
-
-Org mode version 8 (or later) is required.
-
-If such a version is not bundled with your Emacs, install one from ELPA.
 
 * Gallery
 :PROPERTIES:
