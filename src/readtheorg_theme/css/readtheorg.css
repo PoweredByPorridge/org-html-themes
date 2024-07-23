@@ -605,7 +605,7 @@ a .fa,a #content .admonition-title,#content a .admonition-title{
 #content .admonition-title.warning:before, #content .admonition-title.caution:before,
 #content .admonition-title.attention:before,
 #content .admonition-title.tip:before, #content .admonition-title.hint:before,
-#content .admonition-title.important:before,
+#content .admonition-title.importantss:before,
 #content .admonition-title.error:before, #content .admonition-title.danger:before{
     font-family:FontAwesome;
     content: "";}
