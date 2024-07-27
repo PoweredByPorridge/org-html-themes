@@ -601,7 +601,7 @@ a .fa,a #content .admonition-title,#content a .admonition-title{
 .wy-alert.wy-alert-warning,#content .wy-alert-warning.note, #content .attention,#content .caution, #content .warning, #content .admonitiontodo, .attention + div, .caution + div, .warning + div, #content .wy-alert-warning.danger,#content .wy-alert-warning.error, #content .wy-alert-warning.hint,#content .wy-alert-warning.important,#content .wy-alert-warning.tip,#content .wy-alert-warning.seealso{
     background:#ffedcc}
 
-#content .admonition-title.note:before, #content .admonition-title.seealso:before, #content .admonition-title.warning:before, #content .admonition-title.caution:before, #content .admonition-title.attention:before, #content .admonition-title.tip:before, #content .admonition-title.hint:before, #content .admonition-title.importants:before, #content .admonition-title.error:before, #content .admonition-title.danger:before{
+#content .admonition-title.note:before,#content .admonition-title.seealso:before,#content .admonition-title.warning:before,#content .admonition-title.caution:before,#content .admonition-title.attention:before,#content .admonition-title.tip:before,#content .admonition-title.hint:before,#content .admonition-title.importants:before,#content .admonition-title.error:before,#content .admonition-title.danger:before{
     font-family:FontAwesome;
     content: "";}
 
