@@ -47,7 +47,7 @@ $(function() {
                .set("en", "Tip")
                .set("de", "Tipp"))
           .set("important", new Map()
-               .set("en", "Duncan's revision note")
+               .set("en", "Revision note")
                .set("de", "Wichtig"))
           .set("hint", new Map()
                .set("en", "Hint")
