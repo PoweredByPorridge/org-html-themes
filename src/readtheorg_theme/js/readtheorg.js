@@ -49,9 +49,6 @@ $(function() {
           .set("important", new Map()
                .set("en", "Revision note")
                .set("de", "Wichtig"))
-          .set("comment", new Map()
-               .set("en", "Comment")
-               .set("de", "Hinweis"))
           .set("hint", new Map()
                .set("en", "Hint")
                .set("de", "Hinweis"))
@@ -69,8 +66,7 @@ $(function() {
     replace_admonition('attention', map);
     replace_admonition('tip', map);
     replace_admonition('important', map);
-    replace_admonition('comment', map); 
-    //replace_admonition('hint', map); 
+    replace_admonition('hint', map); 
     replace_admonition('error', map);
     replace_admonition('danger', map);
 });
