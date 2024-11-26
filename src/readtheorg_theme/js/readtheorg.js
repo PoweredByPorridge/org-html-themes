@@ -29,7 +29,7 @@ $(function() {
     }
     const map = new Map()
           .set("note", new Map()
-               .set("en", "Notes and comments")
+               .set("en", "Notes and comments - ELRoB")
                .set("de", "Hinweis"))
           .set("seealso", new Map()
                .set("en", "See also")
