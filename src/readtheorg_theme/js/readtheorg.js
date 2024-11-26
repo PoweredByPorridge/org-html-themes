@@ -44,7 +44,7 @@ $(function() {
                .set("en", "Attention")
                .set("de", "Obacht"))
           .set("tip", new Map()
-               .set("en", "Tip"h)
+               .set("en", "Tip")
                .set("de", "Tipp"))
           .set("important", new Map()
                .set("en", "Questions")
