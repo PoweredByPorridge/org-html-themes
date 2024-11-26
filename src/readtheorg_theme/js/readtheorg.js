@@ -29,7 +29,7 @@ $(function() {
     }
     const map = new Map()
           .set("note", new Map()
-               .set("en", "Note")
+               .set("en", "Revision note")
                .set("de", "Hinweis"))
           .set("seealso", new Map()
                .set("en", "See also")
@@ -47,7 +47,7 @@ $(function() {
                .set("en", "Tip")
                .set("de", "Tipp"))
           .set("important", new Map()
-               .set("en", "Revision note")
+               .set("en", "Important")
                .set("de", "Wichtig"))
           .set("hint", new Map()
                .set("en", "Comment")
