@@ -38,7 +38,7 @@ $(function() {
                .set("en", "Warning")
                .set("de", "Warnung"))
           .set("caution", new Map()
-               .set("en", "Caution")
+               .set("en", "Summary")
                .set("de", "Vorsicht"))
           .set("attention", new Map()
                .set("en", "Attention")
