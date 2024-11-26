@@ -50,7 +50,7 @@ $(function() {
                .set("en", "Important")
                .set("de", "Wichtig"))
           .set("hint", new Map()
-               .set("en", "Comment")
+               .set("en", "Hint")
                .set("de", "Hinweis"))
           .set("error", new Map()
                .set("en", "Error")
